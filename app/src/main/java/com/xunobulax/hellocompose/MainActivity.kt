@@ -83,11 +83,11 @@ fun MessageCard(msg: Message) {
 }
 
 @Preview(
+    showBackground = true,
     name = "Light Mode"
 )
 @Preview(
     uiMode = Configuration.UI_MODE_NIGHT_YES,
-    showBackground = true,
     name = "Dark Mode",
 )
 @Composable
